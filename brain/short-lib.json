@@ -1,0 +1,26 @@
+{
+    "short": [
+        //main four lobes
+        "Frontal lobe, Parietal lobe, Temporal lobe, Occipital lobe is a four main lobe in human brain",
+        "Frontal lobe - is responsible for planning, intelligence and other high cognitive functions",
+        "Parietal lobe - is responsible for Visuospatial processing, spatial attention, spatial mapping, number representation",
+        "Temporal lobe - is responsible for emotional reactions, face recognition and memory acquisiton",
+        "Occipital lobe - is responsible for visual mapping",
+        
+        
+        //glial cells
+        "Glial cells - One of main important cells in brain. They are consist from 7 type of cells - Astrocytes, Oligodendrocytes, Ependymal cells, Radial glia, Schwann cells, Enteric glial cells",
+        "Astrocytes - Astrocytes is the biggest of glial cells, it  participate in build blood-brain barier. Form glial scars in damaged part of brain. Protrusions of astrocytes surround neuron synapses and influence on information moving across synapse between neurons.",
+        "Oligodendrocytes - this is a glia cells what form myelin cover",
+        "Schwann cells - One of glial cells, it support neuron in peripheral nervous system by forming myelin cover",
+        "Microglial - One of glial cells. Microglia constituting approximately 5-20% of neural cells",
+        
+        //limbic system
+        "Limbic system - The system of cortical structures involved in the regulation of emotional behavior and the process of memorization",
+        
+        //central nervous system
+        "Central nervous system is a set of cells that integrates, coordinates and influences all part of body",
+        "Grey matter - this is one of two substance that building central nervous system, had connection with muscle control and sensory percepction.",
+        "White matter - this is one of two substance that building central nervous system. White matter is responsible for creating electric securiting cover and transport message between grey matter."
+    ]
+}

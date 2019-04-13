@@ -1,0 +1,164 @@
+body {
+    background: rgb(0, 0, 50);
+    color: #fff;
+}
+
+header {
+    color: #0ff;
+}
+.nav-main {
+    display: inline-block;
+    width: 45%;
+}
+.brodmann {
+    display: inline-block;
+    width: 45%;
+}
+.brodmann img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+.source + a {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 20px;
+}
+
+section section {
+    border: 2px solid #088;
+}
+
+section:first-of-type section {
+    border-color: #066;
+}
+
+.brainSection {
+    border: none;
+}
+
+.fourLobes {
+    display: grid;
+    grid-template-areas: "fl fl pl pl" "fl fl pl pl" "tl tl ol ol" "tl tl ol ol";
+    width: 100%;
+    height: 800px;
+}
+
+.frontalLobe {
+    grid-area: fl;
+}
+
+.temporalLobe {
+    grid-area: tl;
+}
+
+.parietalLobe {
+    grid-area: pl;
+}
+
+.occipitalLobe {
+    grid-area: ol;
+}
+
+.frontalLobe,
+.temporalLobe,
+.parietalLobe,
+.occipitalLobe {
+    box-sizing: border-box;
+    border: 3px solid #0f0;
+    overflow-y: scroll;
+}
+
+body {
+    background: rgb(0, 0, 50);
+    color: #fff;
+}
+
+header {
+    color: #0ff;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+.source + a {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 20px;
+    transition: all .5s;
+}
+
+.source + a:hover {
+    width: auto;
+}
+
+section section {
+    border: 2px solid #088;
+    padding: 10px;
+}
+
+section:first-of-type section {
+    border-color: #066;
+}
+
+.brainSection {
+    border: none;
+}
+
+.lang-pl {
+    display: initial;
+    color:#aaa;
+}
+header .lang-pl{
+    color: #0aa;
+}
+.frontalLobeUL .lang-pl {
+    display: block;
+}
+.langButton {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    width: 50px;
+    height: 25px;
+}
+.img-brain-lobes {
+    display: flex;
+    justify-content: space-around;
+}
+.canvas-container {
+    position: relative;
+    font: bold 24px sans-serif; 
+}
+.canvas-container p {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    width: 100%;
+}
+.canvas-container .frontal{
+    top: 30%;
+}
+.canvas-container .parietal {
+    top: 63%;
+}
+.canvas-container .occipital {
+    font-size: 18px;
+    top: 81%;
+}
+.img-brain-side {
+    border: 3px solid rgb(0, 0, 0);
+}
+canvas{
+    margin: auto;
+}
+.neurons img {
+    background: #fff;
+}

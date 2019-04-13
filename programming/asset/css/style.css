@@ -1,0 +1,98 @@
+.table-horizontal tbody {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.table-horizontal tr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-alg-hed {
+    object-position: 0 0;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.table-horizontal th,
+.table-horizontal td {
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 2px solid #000;
+    width: 200px;
+    height: 200px;
+}
+
+.table-horizontal tr:nth-child(2) td {
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.table-horizontal td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+th:nth-child(2) .tab-alg-hed {
+    object-position: 0 -201px;
+}
+
+th:nth-child(3) .tab-alg-hed {
+    object-position: 0 -402px;
+}
+
+th:nth-child(4) .tab-alg-hed {
+    object-position: 0 -603px;
+}
+
+th:nth-child(5) .tab-alg-hed {
+    object-position: 0 -804px;
+}
+
+th:nth-child(6) .tab-alg-hed {
+    object-position: 0 -1005px;
+}
+
+th:nth-child(7) .tab-alg-hed {
+    object-position: 0 -1206px;
+}
+
+th:nth-child(8) .tab-alg-hed {
+    object-position: 0 -1407px;
+}
+
+th:nth-child(9) .tab-alg-hed {
+    object-position: 0 -1608px;
+}
+
+th:nth-child(10) .tab-alg-hed {
+    object-position: 0 -1809px;
+}
+
+th:nth-child(11) .tab-alg-hed {
+    object-position: 0 -2010px;
+}
+
+th:nth-child(12) .tab-alg-hed {
+    object-position: 0 -2211px;
+}
+/*
+.step-list dt{
+    float: right;
+}
+.step-list dd{
+    clear: both;
+}*/

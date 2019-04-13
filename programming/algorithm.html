@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Algorytm</title>
+    <link rel="stylesheet" href="../deep-logic/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-main">
+        <h1><span class="lang-eng">Programming</span><span class="lang-pl">Programowanie</span></h1>
+        <nav class="nav-main">
+            <ul>
+                <li><a href="index.html">Programowanie</a></li>
+                <li><a href="program.html">Program</a></li>
+                <!--                <li><a href="structured.html">programowanie strukturalne</a></li>-->
+                <!--                <li><a href="procedural.html">programowanie proceduralne</a></li>-->
+                <!--                <li><a href="object-oriented.html">programowanie obiektowe</a></li>-->
+                <!--                <li><a href="functional.html">programowanie funkcyjne</a></li>-->
+                <li><a href="imperative.html">programowanie imperatywne</a></li>
+                <li><a href="declarative.html">programowanie deklaratywne</a></li>
+                <li><a href="algorithm.html">algorytmy</a></li>
+                <li><a href="data_struchture">struktury danych</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="container main lang-pl flex">
+            <header class="header">
+                <h2>Algorytmy</h2>
+            </header>
+            <section>
+                <header>
+                    <h3>Struktura</h3>
+                </header>
+                <h4>Zasady jakie muszą spełnić dane które mają być przez algorytm wykorzystane</h4>
+                <ul>
+                    <li>Zawierają problem do rozwiązania</li>
+                    <li>Typ danych wejściowych</li>
+                    <li>Sposób zaprezentowania danych wyjściowych.</li>
+                    <li></li>
+                </ul>
+                <h4>Warunki efektywnego algorytm</h4>
+                <h3>Dyskretność</h3>
+                <p>Podstawowe kroki są wyraźnie określone</p>
+                <h3>Uniwersalność</h3>
+                <p>Rozwiązanie algorytmu obejmuje zdefiniowany zestaw problemów, nie tylko jeden szczególny przypadek.</p>
+                <h3>Jednoznaczność</h3>
+                <p>Algorytm definiuje które podstawowe kroki muszą koniecznie zostać wykonane, do prawidłowego działania.</p>
+                <h3>Skończoność</h3>
+                <p>Prawidłowe wykonanie całego algorytmu ma określoną maksymalną i minimalną ilość potrzebnych kroków do prawidłowego działania.</p>
+            </section>
+            <section>
+                <header>
+                    <h3>Prezentacja algorytmu</h3>
+                </header>
+                <h4>Lista kroków</h4>
+                <dl class="step-list">
+                    <dt>Dane:</dt>
+                    <dd>Dowolne liczby całkowite: a, b.</dd>
+                    <dt>Wynik:</dt>
+                    <dd>Wartość maksymalna: max.</dd>
+                    <dt>Krok 1</dt>
+                    <dd>Wprowadź dwie liczby całkowite a i b. Przejdź dalej.</dd>
+                    <dt>Krok 2</dt>
+                    <dd>Jeśli a >b, to max = a, wyprowadź wynik max. Przejdź do kroku 5. W przeciwnym wypadku przejdź do kroku 3.</dd>
+                    <dt>Krok 3</dt>
+                    <dd>Sprawdź, czy b &gt; a. Jeśli tak, to max = b, wyprowadź wynik max. Przejdź do kroku 5. W przeciwnym wypadku przejdź do kroku 4.</dd>
+                    <dt>Krok 4</dt>
+                    <dd>Wyprowadź wynik max = a = b. Przejdź do kroku 5.</dd>
+                    <dt>Krok 5</dt>
+                    <dd>Zakończ program.</dd>
+                </dl>
+                <h4>Pseudokod</h4>
+                <p>pseudokod</p>
+                <h4>Drzewo algorytmu</h4>
+                <img src="algorithm_tree.png" alt="obraz drzewa algorytmu">
+                <h4>Schemat blokowy</h4>
+                <table class="table-horizontal">
+                    <tbody>
+                        <tr>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                            <th><img class="tab-alg-hed" src="algorithm_block_scheme.png" alt="algorithm block element"></th>
+                        </tr>
+                        <tr>
+                            <td>przetwarzanie</td>
+                            <td>wprowadzenie lub wyprowadzenie</td>
+                            <td>decyzja</td>
+                            <td>przygotowanie</td>
+                            <td>droga przepływu danych</td>
+                            <td>Skrzyżowanie</td>
+                            <td>połączenie</td>
+                            <td>łącznik międzystronicowy</td>
+                            <td>łącznik stronicowy</td>
+                            <td>początek, koniec lub przerwa</td>
+                            <td>działanie równoległe</td>
+                            <td>komentarz</td>
+                        </tr>
+                        <tr>
+                            <td>oepracja lub grupa operacji które zmieniają właściwości danych</td>
+                            <td>wprowadzenie lub wyprowadzenie danych</td>
+                            <td>operacja określająca wybór jednej z dostępnych dróg</td>
+                            <td>modyfikacja polecenia lub grupy poleceń, zmieniająca proces przetwarzania.</td>
+                            <td>więź logiczna pomiędzy poszczególnymi operacjami przetwarzania</td>
+                            <td>Skrzyżowanie dróg przepływu niezwiązanych ze sobą danych</td>
+                            <td>połączenie dróg przepływu powiązanych ze sobą danych</td>
+                            <td>wejście lub wyjście z wyodrębnionych fragmentów schematu znajdującego się na różnych stronach</td>
+                            <td>wejście lub wyjście z wyodrębnionych fragmentów schematu znajdującego się na jednej stronie</td>
+                            <td>określa stan etapu algorytmu</td>
+                            <td>przedstwia działanie dwóch procesów jednocześnie</td>
+                            <td>oznaczenie miejsca na komentarz</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4>Język programowania</h4>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
