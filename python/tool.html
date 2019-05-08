@@ -14,7 +14,7 @@
 
 <body>
     <header class="header-main">
-        <h1><span class="lang-eng">Python</span><span class="lang-pl">Python</span></h1>
+        <h1><span class="lang-en">Python</span><span class="lang-pl">Python</span></h1>
         <nav class="nav-main">
             <ul>
                 <li><a href="index.html">Podstawowe struktury</a></li>
@@ -26,10 +26,23 @@
     <main role="main">
         <section class="container main lang-pl flex-vertical">
             <header class="header">
-                <h2>Podstawowe struktury Pythona</h2>
+                <h2>Narzędzia</h2>
             </header>
-            <p>PIP, pep8, flake8, virtualenv/virtualenvwrapper</p>
-        </section>
+	    <p>PIP - zarządzanie pakietami Pythona</p>
+            <p>flake8 - weryfikator kodu</p>
+            <P>virtualenv - zarządzanie środowiskiem Pythona</P>
+	    <p>pep8 - zbiór dobrych praktyk w Pythonie</p>
+	    <ul>
+		<li>limit 79 znaków</li>
+		<li>Import<br>Standard library imports<br>Related-third-party imports<br>Local application or library specific imports</li>
+		<li>Import type<br>from core.views import FoodTypes | absolute import | Import z poza aplikacji<br>
+			           from .models import Meals	 | explicit relative | Import z innego modułu<br>
+			           from models import Meals	 | implicit relative | Zła praktyka, nie używać</li>
+		<li>Import aliases<br>from django.forms import CharField as Form CharField | Używaj aliasów<br>
+				      from django.forms import CharField | Zła praktyka<br>
+			              from django.forms import * | Zła praktyka</li>
+	    </ul>
+	</section>
     </main>
 </body>
 
