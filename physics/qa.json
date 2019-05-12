@@ -1,0 +1,42 @@
+{
+    "1": {
+        "pytanie":"Wzór wody to:",
+        "odpowiedź":"H2O"
+    },
+    "2": {
+        "pytanie":"jon to:",
+        "odpowiedź":"atom lub wiązanie chemiczne atomów, którego liczba eketronów jest różna względem protonów"
+    },
+    "3": {
+        "pytanie":"Foton to:",
+        "odpowiedź":"?",
+    },
+    "4": {
+        "pytanie":"Rodzaje widm, ze względu na powstawanie:",
+        "odpowiedź":"Ciągłe, emisyjne liniowe oraz absorpcyjne",
+    },
+    "4": {
+        "pytanie":"Promieniowanie termiczne to:",
+        "odpowiedź":"?",
+    },
+    "4": {
+        "pytanie":"Wielkosść podstawowa to",
+        "odpowiedź":"Wielkość która jest definiowana wyłącznie na podstawie określenia sposobu pomiaru",
+    },
+    "4": {
+        "pytanie":"Wielkość pochodna to:",
+        "odpowiedź":"Wielkość definiowana przez podanie jej związku z wielkościami podstawowymi",
+    },
+    "4": {
+        "pytanie":"Zapis wielkości fizycznej A = a[A]:",
+        "odpowiedź":"A to wartość wielkości fizycznej A. [A] jest jednostką wielkości A",
+    },
+    "4": {
+        "pytanie":"2•10⁻⁷ =",
+        "odpowiedź":"?",
+    },
+    "4": {
+        "pytanie":"",
+        "odpowiedź":"?",
+    }
+}
