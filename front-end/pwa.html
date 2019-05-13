@@ -3,63 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Template</title>
+    <title>PWA</title>
     <link rel="stylesheet" href="../deep-logic/style.css">
 </head>
 
 <body>
     <header class="header-main">
-        <h1><span class="lang-en">Template</span><span class="lang-pl">Szablon</span></h1>
-        <nav class="nav-main">
-            <ul>
-                <li><a href="index.html"></a></li>
-                <li><a href="another.html"></a></li>
-            </ul>
-        </nav>
+        <h1><span class="lang-en">Front-end</span><span class="lang-pl">Front-end</span></h1>
+	<nav class="nav-main">            
+		<ul>
+			<li>Element<ul>
+				<li><a href="index.html">Front-end</a></li>
+                		<li><a href="#">Design</a></li>
+                		<li><a href="#">HTML</a></li>
+                		<li><a href="#">Styl</a>
+					<ul>
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">SASS</a></li>
+					</ul>
+				<li><a href="#">JavaScript</a></li>
+			</ul></li>
+		<li>Aktywność<ul>
+		</ul></li>
+			<li>Mechanizm<ul>
+				<li><a href="framework.html">frameworki</a></li>
+				<li><a href="pwa.html">PWA</a></li>
+			</ul></li>
+		</ul>
+	</nav>
     </header>
     <main role="main">
         <section class="container main lang-pl flex">
             <header class="header">
                 <h2>PWA - Progressive web applications</h2>
             </header>
-            <p>
-Apki natywne na telefon i do sieci, online i offline
-Pliki:
-HTML'S -> <head>:
-<link rel="manifest" href="/manifest.json">
-manifest.json
-{
-"name": "Food Ninja",
-"short_name": "FoodNinja",
-"start_url": "/index.html",
-"display": "standalone" / "browser",
-"background_color": "#FFE9D2",
-"theme_color": "#FFE1C4",
-"orientation": "portrait-primary",
-"icons": [
-{
-"src": "/img/icons/icon-72x72.png",
-"type": "image/png",
-"sizes": "72x72"
-},
-{
-"src": "/img/icons/icon-96x96.png",
-"type": "image/png",
-"sizes": "96x96"
-},
-...
-]
-}
+	    <div>
+	    	<p>HTML'S -&gt; &lt;head&gt;:<br>
+		&lt;link rel="manifest" href="/manifest.json"&gt;<br>
+        	&lt;!-- ios support --&gt;<br>
+        	&lt;link rel="apple-touch-icon" href="icons/icon-96x96.png"&gt;<br>
+        	&lt;meta name="apple-mobile-web-app-status-bar" content="#aaa573"&gt;</p>
+        	<p>SERVICE WORKERS:<br>
+		1. Ładuje zawartość offline<br>
+		2. Potrzebujesz osobnego pliku (sw.js) do nasłuchiwania żądań pobierania, wiadomości push itp</p>        
+	</div>
+	<pre>
+            manifest.json
+            {
+                "name": "Food Ninja",
+                "short_name": "FoodNinja",
+                "start_url": "/index.html",
+                "display": "standalone" / "browser",
+                "background_color": "#FFE9D2",
+                "theme_color": "#FFE1C4",
+                "orientation": "portrait-primary",
+                "icons": [
+                    {
+                        "src": "/img/icons/icon-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72"
+                    },
+                    {
+                        "src": "/img/icons/icon-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96"
+                    },
+                    ...
+                ]
+            }
+        </pre>
 
-Test:
-1-Wsparcie dla ios daje kod:
-1-<!-- ios support -->
-<link rel="apple-touch-icon" href="icons/icon-96x96.png">
-<meta name="apple-mobile-web-app-status-bar" content="#aaa573">
-
-SERVICE WORKERS:
-1. Load content offline
-2. Need separate file (sw.js) to listen for fetch requests, push messages, etc</p>
         </section>
     </main>
 </body>
