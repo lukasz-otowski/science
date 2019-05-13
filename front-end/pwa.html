@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <link rel="stylesheet" href="../deep-logic/style.css">
+</head>
+
+<body>
+    <header class="header-main">
+        <h1><span class="lang-en">Template</span><span class="lang-pl">Szablon</span></h1>
+        <nav class="nav-main">
+            <ul>
+                <li><a href="index.html"></a></li>
+                <li><a href="another.html"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="container main lang-pl flex">
+            <header class="header">
+                <h2>PWA - Progressive web applications</h2>
+            </header>
+            <p>
+Apki natywne na telefon i do sieci, online i offline
+Pliki:
+HTML'S -> <head>:
+<link rel="manifest" href="/manifest.json">
+manifest.json
+{
+"name": "Food Ninja",
+"short_name": "FoodNinja",
+"start_url": "/index.html",
+"display": "standalone" / "browser",
+"background_color": "#FFE9D2",
+"theme_color": "#FFE1C4",
+"orientation": "portrait-primary",
+"icons": [
+{
+"src": "/img/icons/icon-72x72.png",
+"type": "image/png",
+"sizes": "72x72"
+},
+{
+"src": "/img/icons/icon-96x96.png",
+"type": "image/png",
+"sizes": "96x96"
+},
+...
+]
+}
+
+Test:
+1-Wsparcie dla ios daje kod:
+1-<!-- ios support -->
+<link rel="apple-touch-icon" href="icons/icon-96x96.png">
+<meta name="apple-mobile-web-app-status-bar" content="#aaa573">
+
+SERVICE WORKERS:
+1. Load content offline
+2. Need separate file (sw.js) to listen for fetch requests, push messages, etc</p>
+        </section>
+    </main>
+</body>
+
+</html>
