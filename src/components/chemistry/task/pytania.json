@@ -1,0 +1,22 @@
+{
+    "1": {
+        "pytanie": "Wzór wody to:",
+        "odpowiedź": "H2O"
+    },
+    "2": {
+        "pytanie": "jon to:",
+        "odpowiedź": "atom lub wiązanie chemiczne atomów, którego liczba eketronów jest różna względem protonów."
+    },
+    "3": {
+        "pytanie": "kation to:",
+        "odpowiedź": "dodatnio naładowany jon"
+    },
+    "4": {
+        "pytanie": "elektron to:",
+        "odpowiedź": "pozajądrowy element atomu"
+    },
+    "5": {
+        "pytanie": "określenie liczby atomowa znajduje się:", 
+        "odpowiedź":"na dole po lewej stronie symbolu pierwiastka"
+    }
+}
