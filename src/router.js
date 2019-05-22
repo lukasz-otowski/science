@@ -14,12 +14,19 @@ export default new Router({
       component: Home
     },
     {
+      path:'/site-content',
+      name:'content',
+      component: function () {
+        return import(/* webpackChunkName: "about" */ './views/SiteContent.vue')
+      }
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: function () { 
+      component: function () {
         return import(/* webpackChunkName: "about" */ './views/About.vue')
       }
     }

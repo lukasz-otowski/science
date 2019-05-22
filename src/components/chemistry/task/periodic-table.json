@@ -1,0 +1,23 @@
+{
+    "1": {
+        "symbol": "H",
+        "name":"Hydrogen",
+        "atomic_number": "1",
+        "atomic_mass":"1,00794"
+    },
+    "2": {
+        "symbol": "He",
+        "name":"Helium",
+        "atomic_number": "2",
+        "atomic_mass":"4,002602"
+    },
+    "?": {
+        "symbol": "",
+        "mass_number": ""
+    },
+    "?": {
+        "symbol": "",
+        "name":"",
+        "mass_number": ""
+    }
+}
