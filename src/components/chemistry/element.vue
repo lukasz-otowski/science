@@ -122,7 +122,7 @@ lista pierwiastków
 export default {
   name: 'ChemistryElement',
   props: {
-    
+
   }
 }
 </script>
