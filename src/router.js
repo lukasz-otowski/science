@@ -17,7 +17,17 @@ export default new Router({
       path:'/chemistry',
       name:'Chemistry',
       component: function () {
-        return import(/* webpackChunkName: "about" */ './views/Chemistry.vue')
+        return import(/* webpackChunkName: "about" */ './views/chemistry/Content.vue')
+      }
+    },
+    {
+      path: '/programming',
+      name: 'Programming',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: function () {
+        return import(/* webpackChunkName: "programming" */ './views/programming/Content.vue')
       }
     },
     {
@@ -27,7 +37,7 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: function () {
-        return import(/* webpackChunkName: "frontend" */ './views/frontend/Element.vue')
+        return import(/* webpackChunkName: "frontend" */ './views/frontend/Content.vue')
       }
     },
     {
