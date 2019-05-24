@@ -27,7 +27,6 @@
     </ul>-->
       <div id="nav">
         <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
         <router-link to="/chemistry">Chemia</router-link> |
         <router-link to="/front-end">Front-end</router-link>
       </div>
