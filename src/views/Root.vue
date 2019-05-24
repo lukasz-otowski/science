@@ -10,9 +10,16 @@
 import NavRoot from '@/components/NavRoot.vue'
 
 export default {
-  name: 'Home',
+  name: 'Root',
   components: {
      NavRoot
   }
 }
 </script>
+
+<style scoped media="screen">
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
