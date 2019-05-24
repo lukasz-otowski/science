@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <NavRoot/>
+    <RootNav/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import NavRoot from '@/components/NavRoot.vue'
+import RootNav from '@/components/RootNav.vue'
 
 export default {
   name: 'Root',
   components: {
-     NavRoot
+     RootNav
   }
 }
 </script>

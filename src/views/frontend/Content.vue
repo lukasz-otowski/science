@@ -1,24 +1,24 @@
 <template>
   <div>
-    <ProgrammingNav/>
+    <FrontEndNav/>
     <section class="container main lang-pl flex">
         <header class="header">
             <h2></h2>
         </header>
-        <p>Język</p>
-        <p>IDE - Integrated Development Environment</p>
-        <p>Framework - advenced work tools</p>
+        <p>HTML - paragraf</p>
+        <p>CSS - selektor - właściwość - wartość</p>
+        <p>javascript - typy danych - instrukcje - funkcje</p>
     </section>
   </div>
 </template>
 
 <script>
-import ProgrammingNav from '@/components/ProgrammingNav.vue'
+import FrontEndNav from '@/components/FrontEndNav.vue'
 
 export default {
   name: 'Content',
   components: {
-    ProgrammingNav
+    FrontEndNav
   }
 }
 </script>
