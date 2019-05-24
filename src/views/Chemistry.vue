@@ -24,7 +24,7 @@
 import ChemistryElement from '@/components/chemistry/element.vue'
 
 export default {
-  name: 'SiteContent',
+  name: 'Chemistry',
   components: {
     ChemistryElement
   }

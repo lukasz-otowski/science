@@ -14,10 +14,10 @@ export default new Router({
       component: Home
     },
     {
-      path:'/site-content',
-      name:'content',
+      path:'/chemistry',
+      name:'chemistry',
       component: function () {
-        return import(/* webpackChunkName: "about" */ './views/SiteContent.vue')
+        return import(/* webpackChunkName: "about" */ './views/Chemistry.vue')
       }
     },
     {
