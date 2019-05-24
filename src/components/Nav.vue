@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <!--<h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -24,13 +24,18 @@
       <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    </ul>-->
+      <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/chemistry">Chemia</router-link>
+      </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Nav',
   props: {
     msg: String
   }
