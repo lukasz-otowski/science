@@ -10,24 +10,34 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: Home
     },
     {
       path:'/chemistry',
-      name:'chemistry',
+      name:'Chemistry',
       component: function () {
         return import(/* webpackChunkName: "about" */ './views/Chemistry.vue')
       }
     },
     {
       path: '/front-end',
-      name: 'frontend',
+      name: 'FrontEnd',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: function () {
-        return import(/* webpackChunkName: "frontend" */ './views/FrontEnd.vue')
+        return import(/* webpackChunkName: "frontend" */ './views/frontend/Element.vue')
+      }
+    },
+    {
+      path: '/front-end/javascript',
+      name: 'JavaScript',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: function () {
+        return import(/* webpackChunkName: "frontend" */ './views/frontend/element/javascript/JavaScript.vue')
       }
     }
   ]

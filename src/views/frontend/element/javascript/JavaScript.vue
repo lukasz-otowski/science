@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>JavaScript</title>
-    <link rel="stylesheet" href="../../deep-logic/style.css">
-</head>
-
-<body>
-    <header class="header-main">
-        <h1><span class="lang-en">Front-end</span><span class="lang-pl">Front-end</span></h1>
-        <nav class="nav-main">
-            <ul>
-                <li><a href="index.html">index</a></li>
-                <li><a href="#">#</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main role="main">
+<template>
         <section class="container main lang-pl flex-vertical">
             <header class="header">
                 <h2>JavaScript</h2>
@@ -52,7 +33,10 @@
 		<h3></h3>
 		<h3></h3>
         </section>
-    </main>
-</body>
+</template>
 
-</html>
+<script type="text/javascript">
+export default {
+  name:'JavaScript'
+}
+</script>
