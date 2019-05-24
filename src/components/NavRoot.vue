@@ -26,8 +26,9 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>-->
       <div id="nav">
-        <router-link to="/">Home</router-link> |
+        <router-link to="/">Root</router-link> |
         <router-link to="/chemistry">Chemia</router-link> |
+        <router-link to="/programming">Programowanie</router-link> |
         <router-link to="/front-end">Front-end</router-link>
       </div>
   </div>
