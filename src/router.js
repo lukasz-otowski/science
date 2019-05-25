@@ -23,9 +23,6 @@ export default new Router({
     {
       path: '/programming',
       name: 'Programming',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: function () {
         return import(/* webpackChunkName: "programming" */ './views/programming/Content.vue')
       }
@@ -33,9 +30,6 @@ export default new Router({
     {
       path: '/front-end',
       name: 'FrontEnd',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: function () {
         return import(/* webpackChunkName: "frontend" */ './views/frontend/Content.vue')
       }
@@ -43,11 +37,15 @@ export default new Router({
     {
       path: '/front-end/javascript',
       name: 'JavaScript',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: function () {
         return import(/* webpackChunkName: "frontend" */ './views/frontend/element/javascript/JavaScript.vue')
+      }
+    },
+    {
+      path: '/front-end/vue',
+      name: 'Vue',
+      component: function () {
+        return import(/* webpackChunkName: "frontend" */ './views/frontend/mechanics/vue/element.vue')
       }
     }
   ]

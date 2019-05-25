@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Template</title>
-    <link rel="stylesheet" href="../../deep-logic/style.css">
-</head>
-
-<body>
-    <header class="header-main">
-        <h1><span class="lang-en">Template</span><span class="lang-pl">Szablon</span></h1>
-    	<nav class="nav-main">            
-			<ul>
+<template>
+  <div>
+      <!--<ul>
 				<li>Element<ul>
 					<li><a href="index.html">dyrektywy</a></li></ul></li>
 				<li>Aktywność<ul>
@@ -20,13 +9,11 @@
 					<li><a href="#">Hierarchia</a></li>
 					<li><a href="engine">silnik</a></li>
 					<li><a href="pwa.html">PWA</a></li></ul></li>
-			</ul>
-        </nav>
-	</header>
-    <main role="main">
+			</ul>-->
+
         <section class="container main lang-pl flex-vertical">
             <header class="header">
-                <h2></h2>
+                <h2>Vue</h2>
             </header>
 			<div class="flex-vertical">
 				<h3>Cheat-sheet</h3>
@@ -35,7 +22,7 @@
 					<li></li>
 					<li></li>
 					<li></li>
-				<ul>
+				</ul>
 			</div>
 	    		<div class="flex-vertical">
 	    			<h3>CLI</h3>
@@ -51,7 +38,9 @@
 				<h3>Hierarchia</h3>
 				<p>Instancja</p>
         </section>
-    </main>
-</body>
+    </div>
+</template>
 
-</html>
+<script>
+
+</script>

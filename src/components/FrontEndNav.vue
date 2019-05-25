@@ -13,9 +13,9 @@
         <li>Aktywność<ul>
           </ul></li>
         <li>Mechanizm<ul>
-            <li><a href="framework.html">framework</a><ul>
-              <li><a href="vue/element.html">vue</a></li></ul></li>
-            <li><a href="pwa.html">PWA</a></li></ul></li>
+          <li><a href="framework.html">framework</a><ul>
+            <li><router-link to="/front-end/vue">vue</router-link></li></ul></li>
+          <li><a href="pwa.html">PWA</a></li></ul></li>
       </ul>
     </nav>
   </header>
