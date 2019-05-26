@@ -6,16 +6,20 @@
     <title>Template</title>
     <link rel="stylesheet" href="../deep-logic/style.css">
 	<style>
-		tr { display: block; float: left; }
-		th { font-size:30px;}
-		td { display: block; font-size:20px;}
+    thead tr { display: flex; }
+    th { font-size:30px;}
+    th:nth-child(1) {flex-grow: 2;}
+    tbody { display: flex; }
+		tbody tr { display: flex; flex-direction: column;}
+
+		td { font-size:20px;}
 		th, td {width: 110px; }
 	</style>
 </head>
 
 <body>
     <header class="header-main">
-        <h1><span class="lang-en">Template</span><span class="lang-pl">Szablon</span></h1>
+        <h1><span class="lang-en">Math</span><span class="lang-pl">Matematyka</span></h1>
         <nav class="nav-main">
             <ul>
                 <li><a href="index.html">index</a></li>
@@ -32,7 +36,8 @@
 				<thead>
 					<tr>
 						<th>x<sup>2</sup></th>
-						<th>x<sup>3</sup></th>
+            <!-- <th></th> -->
+            <th>x<sup>3</sup></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -48,6 +53,18 @@
 						<td>9<sup>2</sup> = 81</td>
 						<td>10<sup>2</sup> = 100</td>
 					</tr>
+  					<tr>
+  						<td>11<sup>2</sup> = 121</td>
+  						<td>12<sup>2</sup> = 144</td>
+  						<td>13<sup>2</sup> = 169</td>
+  						<td>14<sup>2</sup> = 196</td>
+  						<td>15<sup>2</sup> = 225</td>
+  						<td>16<sup>2</sup> = 256</td>
+  						<td>17<sup>2</sup> = 289</td>
+  						<td>18<sup>2</sup> = 324</td>
+  						<td>19<sup>2</sup> = 361</td>
+  						<td>20<sup>2</sup> = 400</td>
+  					</tr>
 					<tr>
 						<td>1<sup>3</sup> = 1</td>
 						<td>2<sup>3</sup> = 8</td>
