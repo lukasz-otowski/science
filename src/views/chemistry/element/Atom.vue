@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ChemistryNav/>
 <!--<body class="">
     <header class="header-main">
         <h1 class=""><span class="lang-en">Chemistry</span><span class="lang-pl">Chemia</span></h1>
@@ -119,10 +120,12 @@ lista pierwiastków
 </template>
 
 <script>
-export default {
-  name: 'ChemistryElement',
-  props: {
+import ChemistryNav from '@/components/ChemistryNav.vue'
 
+export default {
+  name: 'Atom',
+  components:{
+    ChemistryNav
   }
 }
 </script>

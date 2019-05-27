@@ -21,6 +21,20 @@ export default new Router({
       }
     },
     {
+      path:'/chemistry/atom',
+      name:'Atom',
+      component: function () {
+        return import(/* webpackChunkName: "about" */ './views/chemistry/element/Atom.vue')
+      }
+    },
+    {
+      path:'/chemistry/element',
+      name:'Element',
+      component: function () {
+        return import(/* webpackChunkName: "about" */ './views/chemistry/element/Element.vue')
+      }
+    },
+    {
       path: '/programming',
       name: 'Programming',
       component: function () {

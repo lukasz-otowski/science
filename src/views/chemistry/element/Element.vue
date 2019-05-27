@@ -1,57 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Pierwiastek</title>
-    <link rel="stylesheet" href="../deep-logic/style.css">
-    <style>
-        .ptable {
-            display: grid;
-            grid-template-columns: repeat(18, 50px);
-            grid-template-rows: repeat(10, 50px);
-            margin: 0 auto;
-        }
-
-        div[class^="element"] {
-            background: rgba(0, 0, 85, 0.5);
-            border: 4px solid #003;
-        }
-        .rot-left-90{
-            transform: rotate(-90deg);
-        }
-    </style>
-</head>
-
-<body>
-    <header class="header-main">
-        <h1><span class="lang-en">Element</span><span class="lang-pl">Pierwiastek</span></h1>
-        <nav class="nav-main">
-            <ul class="lang-pl">
-                <li><a href="index.html">atom</a></li>
-                <li><a href="element.html">pierwiastek</a></li>
-                <li><a href="bond.html">wiązania</a></li>
-                <li><a href="compound.html">związki</a></li>
-                <li><a href="reaction.html">reakcje</a></li>
-                <li><a href="organic.html">chemia organiczna</a></li>
-                <li><a href="inorganic.html">chemia nieorganiczna</a></li>
-                <li><a href="electrochemistry.html">elektrochemia</a></li>
-                <li><a href="methodology.html">metodologia</a></li>
-            </ul>
-            <ul class="lang-en">
-                <li><a href="index.html">atom</a></li>
-                <li><a href="element.html">element</a></li>
-                <li><a href="bond.html">bond</a></li>
-                <li><a href="compound.html">compounds</a></li>
-                <li><a href="reaction.html">reactions</a></li>
-                <li><a href="organic.html">organic chemistry</a></li>
-                <li><a href="inorganic.html">inorganic chemistry</a></li>
-                <li><a href="electrochemistry.html">electrochemistry</a></li>
-                <li><a href="methodology.html">methodology</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main role="main">
+<template>
+  <div>
+    <ChemistryNav/>
         <section class="container main lang-pl flex-vertical">
             <header class="header text-center">
                 <h2>Układ okresowy pierwiastków</h2>
@@ -313,7 +262,16 @@
                 </tbody>
             </table>
         </section>
-    </main>
-</body>
+  </div>
+</template>
 
-</html>
+<script>
+import ChemistryNav from '@/components/ChemistryNav.vue'
+
+export default {
+  name:"Element",
+  components:{
+    ChemistryNav
+  }
+}
+</script>
