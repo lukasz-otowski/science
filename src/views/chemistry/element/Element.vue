@@ -275,3 +275,21 @@ export default {
   }
 }
 </script>
+
+<style media="screen">
+
+    .ptable {
+        display: grid;
+        grid-template-columns: repeat(18, 50px);
+        grid-template-rows: repeat(10, 50px);
+        margin: 0 auto;
+    }
+
+    div[class^="element"] {
+        background: rgba(0, 0, 85, 0.5);
+        border: 4px solid #003;
+    }
+    .rot-left-90{
+        transform: rotate(-90deg);
+    }
+</style>
