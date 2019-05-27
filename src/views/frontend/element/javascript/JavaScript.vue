@@ -51,10 +51,16 @@
           <h3>DOM</h3>
       		<p>Document Object Model</p>
           <ul>
-            <li>document.</li>
+            <li>document.write() <span class="jscomment">//write on site</span></li>
+            <li>let get = document.get​Element​ById()<span class="jsocmment"></span></li>
+            <li>let get = document.get​Elements​ByClass​Name()<span class="jsocmment"></span></li>
+            <li>let get = document.get​Elements​ByName()<span class="jsocmment"></span></li>
+            <li>let get = document.get​Elements​ByTagName()<span class="jsocmment"></span></li>
+            <li><span class="jsocmment"></span></li>
+            <li><span class="jsocmment"></span></li>
           </ul>
           <h3>Zdarzenie</h3>
-      		<p>addEventListener()</p>
+      		<p>element.addEventListener()</p>
 
           <h3>AJAX</h3>
       		<p>Asynchronous JavaScript and XML</p>
@@ -80,3 +86,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.jscomment{
+  color:#999;
+  padding-left: 10px;
+}
+</style>
