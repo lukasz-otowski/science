@@ -8,8 +8,9 @@
         	<li><router-link to="/chemistry/element">pierwiastek</router-link></li>
           <li><router-link href="#">laboratorium</router-link></li></ul></li>
         <li>Aktywność<ul>
-          <li><router-link href="reaction.html">reakcja</router-link></li>
-          <li><router-link href="#">badanie</router-link></li></ul></li>
+          <li><router-link to="/chemistry/reaction">Reakcja</router-link></li>
+          <li><router-link href="#">badanie</router-link></li>
+          <li><router-link to="/chemistry/analysis">Analiza chemiczna</router-link></li></ul></li>
         <li>mechanizm<ul>
           <li><router-link href="bond.html">wiązanie</router-link></li>
         	<li><router-link href="compound.html">związek</router-link></li>

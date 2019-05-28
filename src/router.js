@@ -24,21 +24,35 @@ export default new Router({
       path:'/chemistry/atom',
       name:'Atom',
       component: function () {
-        return import(/* webpackChunkName: "about" */ './views/chemistry/element/Atom.vue')
+        return import('./views/chemistry/element/Atom.vue')
       }
     },
     {
       path:'/chemistry/element',
       name:'Element',
       component: function () {
-        return import(/* webpackChunkName: "about" */ './views/chemistry/element/Element.vue')
+        return import('./views/chemistry/element/Element.vue')
+      }
+    },
+    {
+      path:'/chemistry/reaction',
+      name:'Reaction',
+      component: function () {
+        return import( './views/chemistry/activity/Reaction.vue')
+      }
+    },
+    {
+      path:'/chemistry/analysis',
+      name:'Analysis',
+      component: function () {
+        return import( './views/chemistry/activity/Analysis.vue')
       }
     },
     {
       path:'/chemistry/composition',
       name:'Composition',
       component: function () {
-        return import(/* webpackChunkName: "about" */ './views/chemistry/mechanics/Composition.vue')
+        return import( './views/chemistry/mechanics/Composition.vue')
       }
     },
     {
@@ -59,14 +73,14 @@ export default new Router({
       path: '/front-end/javascript',
       name: 'JavaScript',
       component: function () {
-        return import(/* webpackChunkName: "frontend" */ './views/frontend/element/javascript/JavaScript.vue')
+        return import('./views/frontend/element/javascript/JavaScript.vue')
       }
     },
     {
       path: '/front-end/vue',
       name: 'Vue',
       component: function () {
-        return import(/* webpackChunkName: "frontend" */ './views/frontend/mechanics/vue/element.vue')
+        return import('./views/frontend/mechanics/vue/element.vue')
       }
     }
   ]
