@@ -15,7 +15,8 @@
         	<li><router-link href="compound.html">związek</router-link></li>
         	<li><router-link href="inorganic.html">martwość</router-link></li>
           <li><router-link href="organic.html">organiczność</router-link></li>
-        	<li><router-link href="electrochemistry.html">elektrochemia</router-link></li></ul></li>
+        	<li><router-link href="electrochemistry.html">elektrochemia</router-link></li>
+        	<li><router-link to="/chemistry/composition">Skład chemiczny</router-link></li></ul></li>
       </ul>
     </nav>
   </header>

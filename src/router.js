@@ -35,6 +35,13 @@ export default new Router({
       }
     },
     {
+      path:'/chemistry/composition',
+      name:'Composition',
+      component: function () {
+        return import(/* webpackChunkName: "about" */ './views/chemistry/mechanics/Composition.vue')
+      }
+    },
+    {
       path: '/programming',
       name: 'Programming',
       component: function () {
