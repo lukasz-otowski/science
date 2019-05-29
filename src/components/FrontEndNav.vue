@@ -8,7 +8,7 @@
           <li><a href="#">Design</a></li>
           <li><a href="#">HTML</a></li>
           <li><a href="#">CSS</a><ul>
-            <li><a href="#">SASS</a></li></ul></li>
+            <li><router-link to="/front-end/sass">SASS</router-link></li></ul></li>
           <li><router-link to="/front-end/javascript">JavaScript</router-link></li></ul></li>
         <li>Aktywność<ul>
           </ul></li>

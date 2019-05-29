@@ -70,6 +70,13 @@ export default new Router({
       }
     },
     {
+      path: '/front-end/sass',
+      name: 'Sass',
+      component: function () {
+        return import('./views/frontend/element/css/Sass.vue')
+      }
+    },
+    {
       path: '/front-end/javascript',
       name: 'JavaScript',
       component: function () {
