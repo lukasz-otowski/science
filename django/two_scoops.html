@@ -170,6 +170,42 @@
 			<li class="type_3">6.7.3 Model behaviors vs helper functions<span>84</span></li>
 			<li class="type_2">7.8 Summary<span>84</span></li>
 			
+			<li class="type_1">7 Queries and the database layer <span>87</span></li>
+			<li class="type_2">7.1 Use <span style="display:contents;font-family:monospace;font-size:16px;letter-spacing: -1px;	">get_object_or_404()</span> for single objects <span>87</span></li>
+			<li class="type_2">7.2 Be careful with queries that might throw exceptions<span>88</span></li>
+			<li class="type_3">7.2.1 ObjectDoesNotExist vs. DoesNotExist<span>88</span></li>
+			<li class="type_3">7.2.2 When you just want one object but get three back<span>89</span></li>
+			<li class="type_2">7.3 Use lazy evaluation to make queries legible<span>89</span></li>
+			<li class="type_3">7.3.1 Chaining queries for legibility<span>91</span></li>
+			<li class="type_2">7.4 Lean on advanced query tools<span>92</span></li>
+			<li class="type_3">7.4.1 Query expressions<span>92</span></li>
+			<li class="type_3">7.4.2 Database functions<span>94</span></li>
+			<li class="type_2">7.5 Don't drop down to raw SQL until it's necessary<span>94</span></li>
+			<li class="type_2">7.6 Add indexes as needed<span>96</span></li>
+			<li class="type_2">7.7 Transactions<span>97</span></li>
+			<li class="type_3">7.7.1 Wrapping each HTTP request in transaction<span>98</span></li>
+			<li class="type_3">7.7.2 Explicit transaction declaration<span>100</span></li>
+			<li class="type_3">7.7.3 django.http.StreamingHttpResponse and transactions<span>101</span></li>
+			<li class="type_3">7.7.4 Transactions in MySQL<span>102</span></li>
+			<li class="type_3">7.7.5 Django ORM transaction resources<span>102</span></li>
+			<li class="type_2">7.8 Summary<span>102</span></li>
+		
+			<li class="type_1">8 Function-and class-based views<span>103</span></li>
+			<li class="type_2">8.1 When to use FBVs or CBVs<span>103</span></li>
+			<li class="type_2">8.2 Keep view logic out of URLConfs<span>105</span></li>
+			<li class="type_2">8.3 Stick to loose coupling in URLConfs<span>106</span></li>
+			<li class="type_3">8.3.1 What if we aren't using CBVs?<span>109</span></li>
+			<li class="type_2">8.4 Use URL namespaces<span>109</span></li>
+			<li class="type_3">8.4.1 Makes for shorter, more obvius and don't repeat yourself URL names<span>110</span></li>
+			<li class="type_3">8.4.2 Increase interoperability with third-party libraries<span>111</span></li>
+			<li class="type_3">8.4.3 Easier searches, upgrades, and refactors<span>112</span></li>
+			<li class="type_3">8.4.4 Allows for more app and template reverse tricks<span>112</span></li>
+			<li class="type_2">8.5 Try to keep business logic out of views<span>112</span></li>
+			<li class="type_2">8.6 Django views are functions<span>113</span></li>
+			<li class="type_3">8.6.1 The simplest views<span>113</span></li>
+			<li class="type_2">8.7 Don't use <span style="display:contents;font-family:monospace;font-size:16px;letter-spacing: -1px;">locals()</span> as views context<span>114</span></li>
+			<li class="type_2">8.8 Summary<span>115</span></li>
+			
 			<li class="type_3"><span></span></li>
 			
 		</ul>
